@@ -1,0 +1,56 @@
+body {
+    background: white;
+    font-size: 11pt;
+    font-family: 'Fira Code', monospace;    
+}
+
+#container {
+    overflow: auto;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 20%;
+    /* border: 1px solid black; */
+}
+
+#date {
+    /* float: right; */
+    font-style: italic;
+    font-size: 80%;
+    padding: 2px 4px;
+    background: pink;
+    text-align: right;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+#menu a {
+    font-size: 100%;
+    background: #ffc0cb;
+    
+    margin: 10pt 0;
+    /* margin-right: 10pt; */
+    line-height: 1pt;
+    padding: 5pt 5pt;
+    /* border: 1px solid #00000044; */
+    text-align: center;
+    /* vertical-align: ; */
+}
+
+h1 {
+    /* border-bottom: 1px solid #555; */
+    font-size: 300%;
+    text-decoration: underline;
+}
+
+#menu {
+    font-family: 'Roboto Slab';
+    padding-bottom: 10pt;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto Slab', 'Playfair Display', 'Abril Fatface', cursive;
+}
+
