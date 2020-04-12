@@ -1,67 +1,45 @@
-baseURL = "http://example.com/"
+baseurl = "/"
 languageCode = "en-us"
-title = "Minimal"
-theme = "minimal"
-disqusShortname = "username" # delete this to disable disqus comments
-googleAnalytics = ""
+theme = "hello-friend-ng"
 
 [params]
-    author = "Gerard Simons"
-    description = "Personal blog theme powered by Hugo"
-    githubUsername = "gerardsimons"
-    accent = "red"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Roboto" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "default"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "python"]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-[[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
 
-[[menu.main]]
-    url = "/about/"
-    name = "About"
-    weight = 2
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
 
-[[menu.main]]
-    url = "/post/"
-    name = "Posts"
-    weight = 3
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
 
-[[menu.main]]
-    url = "/project/"
-    name = "Projects"
-    weight = 4
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
 
-# Social icons to be shown on the right-hand side of the navigation bar.
-# The "name" field should match the name of the icon in Font Awesome.
-# The list of available icons can be found at http://fontawesome.io/icons.
+[languages]
+  [languages.en]
+    title = "Hello Friend NG"
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
 
-[[menu.icon]]
-    url = "mailto:me@example.com"
-    name = "envelope-o"
-    weight = 1
+    [languages.en.params.logo]
+      logoText = "hello friend ng"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
-[[menu.icon]]
-    url = "https://github.com/username/"
-    name = "github"
-    weight = 2
-
-[[menu.icon]]
-    url = "https://twitter.com/username/"
-    name = "twitter"
-    weight = 3
-
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
-    name = "linkedin"
-    weight = 4
-
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
-    weight = 5
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
