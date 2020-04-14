@@ -17,9 +17,9 @@ cover: "img/DSC1143.jpg"
 > **— Mr. Robot S01E01**
 
 # Hello?
-That quote was actually part of the default first post of this website theme, but I liked it, so I kept it. [Big whoop, wanna fight about it](https://www.youtube.com/watch?v=30GD25un0XQ)? On a sidenote, I can definitely recommend this show as a good way to pass corona time fast and rather funnily. It is also probably the most realistic looking hacking themed video content I've seen. I am by no means a hacker, but just look at all those sweet Linux [terminals](https://www.youtube.com/watch?v=PGjLhOhMLXc). Right? RIGHT?! 
+That quote was actually part of the default first post of this website theme, but I liked it, so I kept it. I can definitely recommend this show as a good way to pass corona time fast and rather funnily. It is probably the most realistic looking hacking themed TV show / movide I've seen. I am by no means a hacker, but just look at all those sweet Linux [terminals](https://www.youtube.com/watch?v=PGjLhOhMLXc). Right? RIGHT?! 
 
-The cover photo is one I personally took last year on a trip to Scotland with my dear friend Georgios. The animal in the picture is not George. George is much hairier ~~LINK~~ *-- edit:I am not allowed by privacy laws to post a picture of his hairiness*. The cow doesn't really have so much to do with this post, but I feel strongly that shaggy beasts never fail to liven up a website.
+The cover photo is one I personally took last year on a trip to Scotland with my good friend Georgios. The animal in the picture is not George. George is much hairier. The cow doesn't really have so much to do with this post, but I feel strongly that shaggy beasts never fail to liven up a website.
 
 Anywho, hello, and welcome all, whoever you are. Though you are most likely actually just me, constantly re-reading and fretting over potential grammar mistakes. Just like you probably, most of these days are spent inside, and I was looking for some sort of hobby, and I thought it would **finally** be a good moment to make a website, again.
 
