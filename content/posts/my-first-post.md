@@ -2,7 +2,7 @@
 title: "Hello, Friend!"
 date: 2020-04-13T22:53:40+02:00
 description: "Quarantaine time spent well: my first Hugo-powered personal website"
-cover: "img/DSC1143.jpg" 
+cover: "img/my-first-post/DSC1143.jpg" 
 ---
 
 > "Hello, friend?" That's lame.
@@ -43,7 +43,7 @@ Just to give you an idea, here is the workflow in Hugo, heavily simplified
 * Open `my-post-title-here.md` in your favorite Markdown editor
 * Save the file; at every change Hugo will detect the changes and re-render the website
 
-{{< figure src="/img/sweet-setup.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Hello Friend!" captionPosition="center" >}}
+{{< figure src="/img/my-first-post/sweet-setup.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Hello Friend!" captionPosition="center" >}}
 
 This means you can have a nice split-screen setup of your editor of choice next to your browser of choice. Here is an example of my setup: Sublime with Chrome.
 
@@ -81,7 +81,9 @@ So for hosting your website on Netlify you do:
 * Remove the draft status for each post you want to be visible on your website
 * Git commit and push!
 * Check build logs
-* Be amazed or appalled by your creation
+* Be amazed or you know, appalled, by your creation
+
+{{< figure src="/img/my-first-post/netlify.png" alt="Netlify Dashboard" position="center" style="border-radius: 8px;" caption="Netlify Deployments and my useful git commit messages" captionPosition="center" >}}
 
 # run, gerard.run
 Oh and the name gerard.run? Well, .sh was my first hope / love. It's the file extension for shell scripts, but [some Spanish bastard-o](https://gerard.sh/about) took it! Damn you, Gerardo and your sexy ass domain name! Occasionally though you also have .run files. Let's just say they are the hipster versions of .sh files so it's just that much cooler? Also I kinda like [running](https://www.strava.com/athletes/23067266).
