@@ -1,7 +1,7 @@
 ---
 title: "Hello, Friend!"
 date: 2020-04-13T22:53:40+02:00
-description: "Corona time spent well: The first post on my most modern website to date"
+description: "Corona time spent well: My first post on my new website to date"
 cover: "img/DSC1143.jpg" 
 ---
 
@@ -17,24 +17,22 @@ cover: "img/DSC1143.jpg"
 > **— Mr. Robot S01E01**
 
 # Hello?
-That quote was actually part of the default first post of this website theme, but I liked it, so I kept it. [Big whoop, wanna fight about it](https://www.youtube.com/watch?v=30GD25un0XQ)? I can very much recommend watching Mr. Robot as a good way to pass corona time fast and funnily. It is probably the most realistic looking hacking show I've seen. I mean just look at all those sweet Linux [terminals](https://www.youtube.com/watch?v=PGjLhOhMLXc). Right? RIGHT?! 
+That quote was actually part of the default first post of this website theme, but I liked it, so I kept it. [Big whoop, wanna fight about it](https://www.youtube.com/watch?v=30GD25un0XQ)? Also the show is very much recommended as a good way to pass corona time fast and somewhat funnily. Also it is probably the most realistic looking hacking show I've seen. I am by no means a hacker, but just look at all those sweet Linux [terminals](https://www.youtube.com/watch?v=PGjLhOhMLXc). Right? RIGHT?! 
 
-The cover photo is one I personally took last year on a trip to Scotland with my dear friend Georgios. The animal in the picture is not George. George is much hairier ~~LINK~~ *edit:I am not allowed by privacy laws to post a picture of his hairiness*. The cow doesn't really have so much to do with this post, but shaggy beasts are nice, are they not?
+The cover photo is one I personally took last year on a trip to Scotland with my dear friend Georgios. The animal in the picture is not George. George is much hairier ~~LINK~~ *edit:I am not allowed by privacy laws to post a picture of his hairiness*. The cow doesn't really have so much to do with this post, but shaggy beasts really liven up a website.
 
-Anywho, hello, and welcome all, whoever you are. Though you are probably just me, constantly re-reading and     fretting over potential grammar mistakes. I am writing this during dire corona times and I thought it would **finally** be a good moment to make a website (again). 
+Anywho, hello, and welcome all, whoever you are. Though you are most likely actually just me, constantly re-reading and fretting over potential grammar mistakes. As you, I spend most of these days inside and was looking for some sort of hobby, and I thought it would **finally** be a good moment to make a website, again.
 
 # Old in computer years
-Just like dog years, think computer years go by fast. I think maybe 10x faster. So with 10+ years experience I feel old. Looking back, HTML4, CSS and - sorry for cursing - PHP really got me into web development and excited about the web as place where you combine technology with design in a very free and personal way. Then came all the gnarly JavaScript, the jQuery now there's a new framework every year, which was all very offputting to me. I think the last time I made a personal website, was for my small freelance business which was just a bare HTML. Before even that I am pretty sure I still used that whole LAMP stack with phpmyadmin and the likes, including paid hosting.
+Just like dog years, computer years go by fast - real fast. So with 10+ years experience I feel old. Looking back, HTML4, CSS and - sorry for cursing - PHP really got me into web development and excited about the web as place where you marry technology with design in a very free and personal way. Then came the JavaScript, the jQuery and now there's a new framework every year, which was all very offputting to me. I must admit thought that having learnt a little React, it was kinda fun. The last time I made a personal website, was for my small freelance business and was just a very bare HTML placeholder that said "under construction" for its entire measly existence. Before even that I am pretty sure I still used that giant [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle) stack with MySQL, PHP and the likes, including paid hosting and FTP servers. Ah the good old days.
 
 ## Keeping Young with Hugo
 
 ![Image](https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg)
 
-This time, in the year of our lord, 2020 static generators are here, well have been here for a while. You just write in markdown files and it builds those in HTML. You can even mix and match markdown and HTML easily. Jekyll is extremely popular and powers GitHub pages. Hugo however, is said to be much faster and powered by Go and as we all know, Go [is so hot right now](https://youtu.be/Jhc6CRgwkqg?t=7). 
+So what do you do if you feel old? You get a hot new girlfriend! Or in the case of social distancing you just get a new webwsite. This time around however, things would be different. Static generators are here, well have been here for a while, actually. And I had been oggling them for a while, but only now decided it was time. And I love it. After some setting up, all you do is write in markdown files and it turns those in HTML. You can even mix and match markdown and HTML easily. A bit of background on generators: Jekyll is extremely popular and powers GitHub pages. Hugo however, is said to be much faster and powered by Go and as we all know, Go [is so hot right now](https://youtu.be/Jhc6CRgwkqg?t=7). So having decided on that, I also choose a fancy theme to go along, called [hello, friend](https://github.com/panr/hugo-theme-hello-friend) - thanks again [Radek](https://twitter.com/panr). To summarize: The workflow goes something like this:
 
-I choose a fancy theme called [hello, friend](https://github.com/panr/hugo-theme-hello-friend) - thanks again [Radek](https://twitter.com/panr).  To summarize: The workflow goes something like this:
-
-* `hugo new site
+* `hugo new site personal-website`
 * `hugo new posts/my-post-title-here.md`
 * `hugo server -D`, the `-D` flag is important because it will show the draft you are working on!
 * Open [localhost:1313](localhost:1313)
@@ -50,9 +48,9 @@ As for the hosting, I originally wanted to put it on Google's App Engine. From m
 
 If you are still paying for hosting your personal website, please let me stop you right there. **Paying for web hosting is definitely not needed in 2020.**
 
-There's a couple of good free-ish options out there. I think Google Cloud Platform's App Engine would have been fine to do this, but I felt using a big cloud solution like that for a personal website would be overkill. Also, I always wanted to try [Netlify](https://netlify.com/), since that seemed like a simple and sleek cloud solution for personal projects. I especially like it's super simple integration with GitHub. Any code push is automatically picked up and run through Hugo. This continuous building is not uncommon these days but was particularly easy in this case.
+There's a couple of good free-ish options out there. I think Google Cloud Platform's App Engine would have been fine to do this, but I felt using a big cloud solution like that for a personal website to be a bit of an overkill. Also, I always wanted to try [Netlify](https://netlify.com/), which seemed like a simple and sleek cloud solution for personal projects. I especially like it's super straightforward integration with GitHub. Any code push is automatically picked up and run through Hugo. This continuous build cycle is not uncommon these days but was particularly easy to use in this case.
 
-Hugo and Netlify go very well together! It took a bit to set it all up, but now it's just down to writing Markdown files, and who doesn't love writing Markdown files? It's so ghetto!
+Also, Hugo and Netlify go very well together! It took a bit to set it all up, but now it's just down to writing Markdown files, and who doesn't love writing Markdown files? It's so ghetto!
 
 So for hosting your website on Netlify you do:
 
