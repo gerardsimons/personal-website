@@ -1,7 +1,7 @@
 ---
 title: "Hello, Friend!"
 date: 2020-04-13T22:53:40+02:00
-description: "Corona time spent well: My first post on my new modern personal website"
+description: "Quarantaine time spent well: my first Hugo-powered personal website"
 cover: "img/DSC1143.jpg" 
 ---
 
@@ -21,7 +21,7 @@ That quote was actually part of the default first post of this website theme, bu
 
 The cover photo is one I personally took last year on a trip to Scotland with my dear friend Georgios. The animal in the picture is not George. George is much hairier ~~LINK~~ *-- edit:I am not allowed by privacy laws to post a picture of his hairiness*. The cow doesn't really have so much to do with this post, but I feel strongly that shaggy beasts never fail to liven up a website.
 
-Anywho, hello, and welcome all, whoever you are. Though you are most likely actually just me, constantly re-reading and fretting over potential grammar mistakes. As you, I spend most of these days inside and was looking for some sort of hobby, and I thought it would **finally** be a good moment to make a website, again.
+Anywho, hello, and welcome all, whoever you are. Though you are most likely actually just me, constantly re-reading and fretting over potential grammar mistakes. Just like you probably, most of these days are spent inside, and I was looking for some sort of hobby, and I thought it would **finally** be a good moment to make a website, again.
 
 # Old in Computer Years
 Just like dog years, computer years go by fast - real fast. So with 10+ years experience I feel old. Looking back, HTML4, CSS and - sorry for cursing - PHP really got me into web development and excited about the web as place where you marry technology with design in a very free and personal way. Then came the JavaScript, the jQuery and now there's a new framework every year, which was all very offputting to me. I must admit thought that having learnt a little React, it was kinda fun. The last time I made a personal website, was for my small freelance business and was just a very bare HTML placeholder that said "under construction" for its entire measly existence. Before even that I am pretty sure I still used that giant [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle) stack with MySQL, PHP and the likes, including paid hosting and FTP servers. Ah the good old days.
