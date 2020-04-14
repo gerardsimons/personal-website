@@ -2,23 +2,24 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
+disqusShortname = "gsimons"
 
 [params]
   # dir name of your blog content (default is `content/post`)
 contentTypeName = "posts"
 
-  # "light" or "dark"
-  defaultTheme = "dark"
+# "light" or "dark"
+defaultTheme = "light"
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+# if you set this to 0, only submenu trigger will be visible
+showMenuItems = 2
 
-  # Show reading time in minutes for posts
-  showReadingTime = false
+# Show reading time in minutes for posts
+showReadingTime = false
 
 [languages]
   [languages.en]
-    title = "Gerard.run"
+    title = "gerard.run"
     subtitle = "Personal website of Gerard Simons"
     keywords = ""
     copyright = ""
