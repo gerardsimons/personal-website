@@ -86,7 +86,7 @@ So for hosting your website on Netlify you do:
 {{< figure src="/img/my-first-post/netlify.png" alt="Netlify Dashboard" position="center" style="border-radius: 8px;" caption="Netlify Deployments and my useful git commit messages" captionPosition="center" >}}
 
 # run, gerard.run
-Oh and the name gerard.run? Well, .sh was my first hope / love. It's the file extension for shell scripts, but [some Spanish bastard-o](https://gerard.sh/about) took it! Damn you, Gerardo and your sexy ass domain name! Occasionally though you also have .run files. Let's just say they are the hipster versions of .sh files so it's just that much cooler? Also I kinda like [running](https://www.strava.com/athletes/23067266).
+Oh and the name gerard.run? Well, .sh was my first hope / love. It's the file extension for shell scripts, but [some Spanish bastard-o](https://gerard.sh/about) took it! Damn you, Gerardo and your terrific domain name. Occasionally though you also have .run files. Let's just say they are the hipster versions of .sh files so it's just that much cooler? Also I kinda like [running](https://www.strava.com/athletes/23067266).
 
 My primary, or at least most recent driver for this website however, was that I wanted to share some of my experience programming in Python for [Captain AI](https://captainai.com/), especially with regards to multiprocessing because it seems the resources on it are limited. So you can probably expect some posts on that first, but who knows, at this point I feel quite eh well shall we say *whimsical* so this whole website could also just turn out to be another memes website. 
 
