@@ -42,6 +42,11 @@ showReadingTime = false
         name = "About"
         url = "/about"
 
+    [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/"
+
 
       # [[languages.en.menu.main]]
       #   identifier = "showcase"

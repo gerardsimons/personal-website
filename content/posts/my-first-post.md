@@ -17,20 +17,20 @@ cover: "img/DSC1143.jpg"
 > **— Mr. Robot S01E01**
 
 # Hello?
-That quote was actually part of the default first post of this website theme, but I liked it, so I kept it. [Big whoop, wanna fight about it](https://www.youtube.com/watch?v=30GD25un0XQ)? Also the show is very much recommended as a good way to pass corona time fast and somewhat funnily. Also it is probably the most realistic looking hacking show I've seen. I am by no means a hacker, but just look at all those sweet Linux [terminals](https://www.youtube.com/watch?v=PGjLhOhMLXc). Right? RIGHT?! 
+That quote was actually part of the default first post of this website theme, but I liked it, so I kept it. [Big whoop, wanna fight about it](https://www.youtube.com/watch?v=30GD25un0XQ)? I would also very much recommend this show as a good way to pass corona time fast and funnily. Also it is probably the most realistic looking hacking show I've seen. I am by no means a hacker, but just look at all those sweet Linux [terminals](https://www.youtube.com/watch?v=PGjLhOhMLXc). Right? RIGHT?! 
 
-The cover photo is one I personally took last year on a trip to Scotland with my dear friend Georgios. The animal in the picture is not George. George is much hairier ~~LINK~~ *edit:I am not allowed by privacy laws to post a picture of his hairiness*. The cow doesn't really have so much to do with this post, but shaggy beasts really liven up a website.
+The cover photo is one I personally took last year on a trip to Scotland with my dear friend Georgios. The animal in the picture is not George. George is much hairier ~~LINK~~ *-- edit:I am not allowed by privacy laws to post a picture of his hairiness*. The cow doesn't really have so much to do with this post, but I feel strongly that shaggy beasts never fail to liven up a website.
 
 Anywho, hello, and welcome all, whoever you are. Though you are most likely actually just me, constantly re-reading and fretting over potential grammar mistakes. As you, I spend most of these days inside and was looking for some sort of hobby, and I thought it would **finally** be a good moment to make a website, again.
 
-# Old in computer years
+# Old in Computer Years
 Just like dog years, computer years go by fast - real fast. So with 10+ years experience I feel old. Looking back, HTML4, CSS and - sorry for cursing - PHP really got me into web development and excited about the web as place where you marry technology with design in a very free and personal way. Then came the JavaScript, the jQuery and now there's a new framework every year, which was all very offputting to me. I must admit thought that having learnt a little React, it was kinda fun. The last time I made a personal website, was for my small freelance business and was just a very bare HTML placeholder that said "under construction" for its entire measly existence. Before even that I am pretty sure I still used that giant [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle) stack with MySQL, PHP and the likes, including paid hosting and FTP servers. Ah the good old days.
 
-## Keeping Young with Hugo
+## Staying Young with Hugo
 
 ![Image](https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg)
 
-So what do you do if you feel old? You get a hot new girlfriend! Or in the case of social distancing you just get a new webwsite. This time around however, things would be different. Static generators are here, well have been here for a while, actually. And I had been oggling them for a while, but only now decided it was time. And I love it. After some setting up, all you do is write in markdown files and it turns those in HTML. You can even mix and match markdown and HTML easily. A bit of background on generators: Jekyll is extremely popular and powers GitHub pages. Hugo however, is said to be much faster and powered by Go and as we all know, Go [is so hot right now](https://youtu.be/Jhc6CRgwkqg?t=7). So having decided on that, I also choose a fancy theme to go along, called [hello, friend](https://github.com/panr/hugo-theme-hello-friend) - thanks again [Radek](https://twitter.com/panr). To summarize: The workflow goes something like this:
+So what do you do if you feel old? You get a hot new girlfriend! Or in the case of social distancing you just get a new webwsite. This time around though, things would be different. Static generators are here, well have been here for a while, actually. I had been oggling them for a while, but only now decided it was time. And I love it. After some setting up, all you do is write in markdown files and it turns those in HTML. You can even mix and match markdown and HTML easily. A bit of background on generators: Jekyll is extremely popular and powers GitHub pages. Hugo however, is said to be much faster and powered by Go and as we all know, Go [is so hot right now](https://youtu.be/Jhc6CRgwkqg?t=7). So having decided on that, I also choose a fancy theme to go along, called [hello, friend](https://github.com/panr/hugo-theme-hello-friend) - thanks again [Radek](https://twitter.com/panr). To summarize: The workflow goes something like this:
 
 * `hugo new site personal-website`
 * `hugo new posts/my-post-title-here.md`
@@ -42,6 +42,23 @@ So what do you do if you feel old? You get a hot new girlfriend! Or in the case 
 {{< figure src="/img/sweet-setup.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Hello Friend!" captionPosition="center" >}}
 
 This means you can have a nice split-screen setup of your editor of choice next to your browser of choice. Here is an example of my setup: Sublime with Chrome.
+
+And since Hugo is really geared towards developers, you get some sweet syntax highlighting for your Markdown code snippets. Let me exemplify by a code snippet of Google's PageRank algorithm in Python:
+
+```python
+import numpy as np
+
+def pagerank(M, num_iterations=100, d=0.85):
+    N = M.shape[1]
+    v = np.random.rand(N, 1)
+    v = v / np.linalg.norm(v, 1)
+    iteration = 0
+    while iteration < num_iterations:
+        iteration += 1
+        v = d * np.matmul(M, v) + (1 - d) / N
+    return v
+```
+
 
 ## Hosting
 As for the hosting, I originally wanted to put it on Google's App Engine. From my experience at Captain AI I really started to enjoy it, and its generous free tier would make it free for any small sized personal website. That brings me to the most important point of this post:
@@ -65,5 +82,7 @@ So for hosting your website on Netlify you do:
 # run, gerard.run
 Oh and the name gerard.run? Well, .sh was my first hope / love. It's the file extension for shell scripts, but [some Spanish bastard-o](https://gerard.sh/about) took it! Damn you, Gerardo and your sexy ass domain name! Occasionally though you also have .run files. Let's just say they are the hipster versions of .sh files so it's just that much cooler, m'kay? Also I kinda like [running](https://www.strava.com/athletes/23067266).
 
-My primary, or at least most recent driver for this website however, was that I wanted to share some of my experience programming in Python for Captain AI, especially with regards to multiprocessing because it seems the resources on it are limited. So you can probably expect some posts on that first, but who knows, at this point I feel quite eh well shall we say *whimsical* so this whole website could also just turn out to be another memes website.
+My primary, or at least most recent driver for this website however, was that I wanted to share some of my experience programming in Python for [Captain AI](https://captainai.com/), especially with regards to multiprocessing because it seems the resources on it are limited. So you can probably expect some posts on that first, but who knows, at this point I feel quite eh well shall we say *whimsical* so this whole website could also just turn out to be another memes website. 
+
+Stay tuned, and post a comment below!
 
