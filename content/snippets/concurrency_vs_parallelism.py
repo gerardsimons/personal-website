@@ -77,7 +77,17 @@ def consume(q, delay):
     process_print("Stops")
 
 
-def run_experiment(Runnable, produce_delay, n_tasks, consume_delay, n_consumers):
+def check_cpu_usage():
+    import psutil
+
+    while True:
+        print("CPU%", psutil.cpu_percent())
+        time.sleep(0.1)
+
+    t = Thread(target=__check)
+    t.start()
+
+def run_experiment(Runnable, n_tasks, consume_delay, n_consumers):
 
     print("Run Experiment with Process ... ", end="")
     workers = []
@@ -100,9 +110,10 @@ def run_experiment(Runnable, produce_delay, n_tasks, consume_delay, n_consumers)
 
 
 if __name__ == '__main__':
-    N = 10
-    process_time = run_experiment(Process, 0.01, 40, 0.1, N)
-    threaded_time = run_experiment(Thread, 0.01, 40, 0.1, N)
+    check_cpu_usage()
+    N = 20
+    process_time = run_experiment(Process, 40, 0.1, N)
+    threaded_time = run_experiment(Thread, 40, 0.1, N)
 
     speed_up = process_time / threaded_time * 100.0
     # print(f"Speed up = {}"})
