@@ -1,6 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend"
+googleAnalytics = "UA-166095062-1"
 paginate = 5
 disqusShortname = "gerard-run"
 
@@ -15,7 +16,7 @@ defaultTheme = "light"
 showMenuItems = 2
 
 # Show reading time in minutes for posts
-showReadingTime = false
+showReadingTime = true
 
 [languages]
   [languages.en]

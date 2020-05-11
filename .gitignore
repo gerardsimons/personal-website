@@ -11,3 +11,6 @@ $RECYCLE.BIN/
 # OSX
 .DS_Store
 *.swp
+
+# Jupyter
+.ipynb_checkpoints/
